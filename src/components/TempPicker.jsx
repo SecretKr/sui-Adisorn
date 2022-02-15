@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getDatabase, ref, set, onValue, remove } from "firebase/database";
+import { ref, onValue } from "firebase/database";
 
 function TempPicker({db, updateTemp}) {
   const [setTemp, setSetTemp] = useState(0)

@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set, onValue, remove } from "firebase/database";
+import { getDatabase, ref, set, onValue } from "firebase/database";
 import firebaseConfig from "../config";
 import React, { useState, useEffect } from "react";
 
