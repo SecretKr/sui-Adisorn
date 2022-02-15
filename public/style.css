@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+html {
+  background-color: #F1E0AC;
+  text-align: center;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: columns;
+          flex-direction: columns;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #3f4864;
+  position: relative;
+  text-align: left;
+  height: 6rem;
+  width: 18rem;
+  padding: 1rem;
+  margin-top: 10rem;
+  background-color: #98B4AA;
+  border-radius: 0.8rem;
+}
+
+.container div {
+  height: 2rem;
+}
+
+.container span {
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+}
+
+.container .label {
+  left: 1rem;
+}
+
+.container .data {
+  left: 14rem;
+}
+
+.container .suffix {
+  left: 17rem;
+}
+
+.setting {
+  position: relative;
+  text-align: left;
+  height: 6rem;
+}
+
+.setting p {
+  position: absolute;
+  margin: 0;
+}
+
+.setting input {
+  position: absolute;
+  font-size: 1.4rem;
+  left: 13rem;
+  top: 0.2rem;
+  width: 2rem;
+  border-radius: 0.4rem;
+  background-color: #7d9fa5;
+  font-weight: bold;
+  color: #3f4864;
+}
+
+.setting input::-webkit-input-placeholder {
+  color: #3f4864;
+  opacity: 90%;
+  font-weight: bold;
+}
+
+.setting input:-ms-input-placeholder {
+  color: #3f4864;
+  opacity: 90%;
+  font-weight: bold;
+}
+
+.setting input::-ms-input-placeholder {
+  color: #3f4864;
+  opacity: 90%;
+  font-weight: bold;
+}
+
+.setting input::placeholder {
+  color: #3f4864;
+  opacity: 90%;
+  font-weight: bold;
+}
+
+.setting .suffix {
+  left: 16rem;
+}
+
+input {
+  border: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/*# sourceMappingURL=style.css.map */
